@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "portfolio"]
+	url = portfolio
+	fetch = +refs/heads/*:refs/remotes/portfolio/*
+[remote "origin"]
+	url = https://github.com/faithckip/Portfolio
+	fetch = +refs/heads/*:refs/remotes/origin/*
