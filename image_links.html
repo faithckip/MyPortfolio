@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Central Image Links Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Here's an image related to technology:</p>
+        <a href="https://www.simplilearn.com/importance-of-technology-article">
+            <img src="C:\Users\Administrator\Desktop\AndroidPics\techImage.jpg" alt="Technology"></a>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.nature.org/en-us/"><img src="C:\Users\Administrator\Desktop\AndroidPics\nature.jpg" alt="Outdoor Forest Nature"></a>
+            <a href="https://www.pexels.com/search/beautiful%20nature/"><img src="C:\Users\Administrator\Desktop\AndroidPics\MountainLake.jpg" alt="Mountain Lake Nature"></a>
+            <a href="https://www.pexels.com/search/river/"><img src="C:\Users\Administrator\Desktop\AndroidPics\river.jpeg" alt="River Nature"></a>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <p>Kenyan Food Guide</p>
+            <a href="https://www.ubereats.com/gb/store/kenya-kitchen/3pvR8hw9QuCdgQpOnp9dHQ/"><img src="C:\Users\Administrator\Desktop\AndroidPics\Kenyan_Food.jpg" alt="Food 1"></a>
+        </div>
+        <div class="menu-item">
+            <p>Canada Food Guide</p>
+            <a href="https://food-guide.canada.ca/en/"><img src="C:\Users\Administrator\Desktop\AndroidPics\Canada_Food.jpg" alt="Canada Food guideFood 2"></a>
+        </div>
+        <div class="menu-item">
+            <p>Norwegian Food Guide</p>
+            <a href="https://www.pinterest.com/pin/872924340252205918/"><img src="C:\Users\Administrator\Desktop\AndroidPics\Norwegian food.jpg" alt="Norwegian Food Cusine"></a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 FaithKiprono</p>
+    </footer>
+</body>
+</html>
