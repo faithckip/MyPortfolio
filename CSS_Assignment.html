@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <style>
+            body{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            /* Header styling */
+            header{
+                background-color: #333;
+                padding:20px;
+                color:white;
+                text-align: center;
+            }
+            /* Introduction section styling */
+            #introduction{
+                background-color: #f0f0f0;
+                padding:20px;
+                margin-top:20px;
+            }
+
+            /*skills display styling*/
+            #skills{
+                background-color: aqua;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            ul{
+                list-style-type: disc;
+                padding: 0;
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            /*contact information styling */
+            footer{
+                background-color: #333333;
+                padding: 20px;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+                font-weight: bold;
+            }
+            h2{
+                text-align: center;
+                font-weight: bold;
+            }
+            p{
+                text-align: center;
+            }
+            footer a{
+                color:coral;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+            /*Media Queries for Responsive Design */
+            @media(max-width: 768px){
+                header, #introduction, #skills, footer{
+                    padding: 10px;
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                body {
+                  background-color: lightblue;
+                }
+              }
+              .image{
+                align-content: left;
+                max-width: 10%;
+                max-height: 10%;
+              }
+        </style>
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <h1>Faith Kiprono</h1>
+            <img  class="image" src="C:\Users\Faith Kiprono\OneDrive - University of Bergen\Desktop\CVAPP\Fb Pic.jpg" alt="profile pic">
+        </header>
+        <!--Introduction-->
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hello, I'm Faith Kiprono an economist by proffession. I am passionate about economics and IT.</p>
+            <p> I have experience in front-end development. I am excited to transition into tech career.</p>
+        </section>
+        <hr>
+        <!--skills display-->
+        <section id="skills">
+            <h2> Tech Skills</h2>
+            <ul>
+                <a href="https://github.com/faithckip/MyPortfolio" alt ="frontend portfolio"><ul>Front-end (HTML, CSS & Javascript)</ul></a>
+                <a href="https://github.com/faithckip/E-commerce-project-springBoot" alt="java portfolio"><ul>Java</ul></a>
+                <a href="https://github.com/faithckip/BankingApp" alt="android portfolio"><ul>Android Delopment using Kotlin & Jetpack compose</ul></a>
+                <a href="https://github.com/faithckip/shopping-app-microservices" alt="micro service portfolio"><ul>Microservices and Spring boot</ul></a>
+                <a href="https://github.com/faithckip/shopping-app-microservices" alt="DevOps portfolio"><ul>DevOps</ul></a>
+            </ul>
+        </section>
+        <!--Contact Information-->
+        <footer>
+            <p >Contact Me:</p>
+            <a href="mailto:faithckiprono@gmail.com" alt="email">Email</a>
+            <a href="https://www.linkedin.com/in/faith-kiprono-820260115" alt="LinkedIn">LinkedIn</a>
+            <a href="https://github.com/faithckip" alt="Github">Github</a>
+        </footer>
+    </body>
+</html>
